@@ -1,24 +1,18 @@
-# README
+#メモ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## コンソール系
+- start
+```
+$ rails c
+```
 
-Things you may want to cover:
+- console内できること
+```
+User.first → Userの最初のデータ内容を取得する
+User.all → Userの全件を取得する
+first_user = User.first → User.firstの情報を変数first_userに格納する
+```
 
-* Ruby version
+## url参照系
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[scaffoldで作成したファイルを全削除](https://tamamemo.hatenablog.com/entry/20120113/1326435969)
