@@ -17,7 +17,9 @@ first_user = User.first → User.firstの情報を変数first_userに格納す�
 
 [scaffoldで作成したファイルを全削除](https://tamamemo.hatenablog.com/entry/20120113/1326435969)
 
+## routesの設定について
 
+[Railsチュートリアル-routesについて-](https://railsguides.jp/routing.html)
 
 # Railsチュートリアルについて
 
