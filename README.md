@@ -29,7 +29,7 @@ modelは単数形を使用する
 ## 実行させるまで
 
 `bundle install`
-`db:migrate`
+`rails db:migrate`
 `rails s`
 
 # Railsチュートリアルについて
