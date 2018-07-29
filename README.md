@@ -13,6 +13,22 @@ User.all → Userの全件を取得する
 first_user = User.first → User.firstの情報を変数first_userに格納する
 ```
 
+- Railsのカラムの中身を確認する
+
+```shell
+User.columns
+```
+↑これだと他の情報も引っ張られるので、
+
+```shell
+User.columns.map(&:name)
+```
+か
+```shell
+User.column_names
+```
+で調べることができる
+
 ## url参照系
 
 [scaffoldで作成したファイルを全削除](https://tamamemo.hatenablog.com/entry/20120113/1326435969)
